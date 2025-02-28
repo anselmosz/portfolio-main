@@ -12,6 +12,7 @@ h2 {
 .contato {
   display: flex;
   justify-content: space-around;
+  margin: 10rem 0;
 }
 .icons-box {
   display: flex;
