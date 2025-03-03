@@ -1,7 +1,11 @@
 @import url(./style.css);
 
+.tech-stack {
+  margin: 4rem 0;
+}
 
 .tech-container {
+  margin: 7rem;
   display: flex;
   justify-content: space-around;
 }
@@ -14,7 +18,7 @@
 .tech-icon .fa-brands, .fa-solid {
   font-size: 4rem;
 }
-.tech-container p {
+.tech-icon p {
   margin: 5px 0 0 0;
   font-size: 1.3rem;
   font-weight: 600;
