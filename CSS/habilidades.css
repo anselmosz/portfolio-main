@@ -1,0 +1,45 @@
+@import url(./style.css);
+
+
+.tech-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech-icon .fa-brands, .fa-solid {
+  font-size: 4rem;
+}
+.tech-container p {
+  margin: 5px 0 0 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.fa-html5 {
+  color: #ff3c00;
+}
+.fa-css3-alt {
+  color: #002fff;
+}
+.fa-js {
+  color: #fffb00;
+}
+.fa-react {
+  color: #61dbfb;
+}
+.fa-node-js {
+  color: #31CB00;
+}
+.fa-figma {
+  color: #0996d8;
+}
+
+@media screen and (max-width: 750px){
+
+}

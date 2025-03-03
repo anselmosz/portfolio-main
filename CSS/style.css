@@ -4,13 +4,14 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
-  --bg1: #d8d8d8;
-  --bg2: #151515;
-  --text1: #030303;
-  --text2: #DC1E24;
+  --bg1: #06070E;
+  --bg2: #f4f7f5;
+  --text1: #F5F1ED;
+  --text2: #f70038;
 }
 body {
   background: var(--bg1);
+  color: var(--text1);
 }
 
 a {
@@ -20,14 +21,22 @@ a {
 } a:hover {
   opacity: 0.7;
 }
+h2 {
+  color: var(--text2);
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin: 0 0 1.4rem 0;
+}
 
 footer {
+  border-top: solid 1px var(--bg2);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--bg2);
+  background: var(--bg1);
   height: 4vh;
-  color: var(--bg1);
+  color: var(--text1);
 }
 strong {
   color: var(--text2);
@@ -153,6 +162,11 @@ header {
 
 @media screen and (max-width: 720px) {
 
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
   /* Configurações de responsividade do header */
   .logo {
     font-size: 1rem;
@@ -219,14 +233,14 @@ header {
   }
 
   .sobre {
-    margin: 4rem 0.5rem;
+    margin: 4rem 0.6rem;
   }
   .sobre h2 {
     font-size: 24px;
   }
   .sobre-desc {
     gap: 1rem;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: justify;
   } 
 
